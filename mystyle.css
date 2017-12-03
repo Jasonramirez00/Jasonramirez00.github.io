@@ -1,0 +1,110 @@
+/* I will use this page to overright any 
+bootstrap or for specific things I want to style within a class that I create */
+
+
+
+
+/** on top I have css for all and then I break down to page specific */ 
+
+
+/*css for index.html */ 
+
+.hello {
+  position: fixed;
+  bottom: 35%;
+  left: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+.navbar {
+	margin-bottom: 0px; 
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	color:#b53647;
+	font-family: 'Vollkorn SC';
+}
+
+.navbar-default .navbar-brand {
+	color:#b53647;
+	font-family: 'Vollkorn SC';
+}
+
+.margin {
+	margin: 0 auto;
+}
+
+h3 {
+font-family:'Average' ; 
+}
+
+.panel-body, p {
+font-family:'Cormorant Garamond';
+font-size: 30px ;
+}
+
+/*we do this instead of editing the row's margin directly because it is part of core
+framework of bootstrap */
+.top-buffer { margin-top:25px; }
+
+
+footer .fa {
+	padding: 50px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: -10px 40px;
+	color:#b53647 ;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.bg-1 {
+	background-color: #b53647;
+	color:#f5f5f5 ; 
+}
+
+
+.full {
+	width: 100%;
+	height: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlay1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
