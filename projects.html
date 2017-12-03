@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jason Ramirez</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Average' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Vollkorn SC' rel='stylesheet'>
+	</head>
+
+	<body>
+
+		<!--DOING THE NAVBARRRRRRRRRRRRRRR -->
+		<nav class="navbar navbar-default">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      					<!--lol I just realized these span icon bars are just the three lines in the dropdown menu icon thingy-->
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>                        
+      				</button>
+      				<a class="navbar-brand" href="index.html">JR</a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="myNavbar">
+    				<ul class="nav navbar-nav navbar-right">
+        				<li class="text-center"><a href="aboutme.html">About Me</a></li>
+      					<li class="text-center active"><a href="projects.html">Projects</a></li>
+        				<!-- <li class="text-center"><a href="blog.html">Blog</a></li>
+-->        				<li class="text-center"><a href="contactme.html">Contact</a></li>
+      				</ul>
+    			</div>
+  			</div>
+		</nav>
+
+
+		<div class="container-fluid">
+			<!-- made my own class in css in order to show full picture, it sets it so that the full height and width is displayed, of course this image is blurry however, so might need to find a new one -->
+			<img class="full" src="imagesweb/ledprojj.jpg">
+		</div>
+
+		<div class="contanier-fluid bg-1 text-center" style="padding-top: 70px; padding-bottom: 70px; font-family: 'Cormorant Garamond">
+			<p style="margin: 52px 45px 52px;"> I love to make things. I love to collaborate with others and innovate, forming new ideas, products, and applications that better the world one way or another. In this section, check out some of my projects. </p>
+		</div> 	
+		<div class="container">
+			<h2 class="text-center">Portfolio of projects </h2>
+			<div class="row">
+				<div class="col-md-4 overlay1" data-toggle="modal" data-target="#myModal">
+					<img src="imagesweb/navass.jpg" style="width:100%">
+					<div class="overlay">
+						<div class="text">Navigation Assistant</div>
+					</div>
+				</div>
+				<div class="col-md-4 overlay1" data-toggle="modal" data-target="#myModal2">
+					<img src="imagesweb/arduinoproj.png" style="width:100%">
+					<div class="overlay">
+						<div class="text">Arduino</div>
+					</div>
+				</div>
+				<div class="col-md-4 overlay1" data-toggle="modal" data-target="#myModal3">
+					<img src="imagesweb/printer.jpg" style="width:100%">
+					<div class="overlay">
+						<div class="text">3D Printer</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 overlay1" data-toggle="modal" data-target="#myModal4">
+					<img src="imagesweb/website.jpg" style="width:100%">
+					<div class="overlay">
+						<div class="text">This Website</div>
+					</div>
+				</div>
+				<div class="col-md-4 overlay1" data-toggle="modal" data-target="#myModal5">
+					<img src="imagesweb/car.jpg" style="width:100%">
+					<div class="overlay">
+						<div class="text">Robo Car</div>
+					</div>
+				</div>
+				<div class="col-md-4 overlay1" data-toggle="modal" data-target="#myModal6">
+					<img src="imagesweb/battery.jpg" style="width:100%">
+					<div class="overlay">
+						<div class="text">Homemade Battery</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+<!--THESE ARE ALL MY MODALSS FOR THE PICS ON THIS PAGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEe-->
+
+
+
+		<div class="modal fade" id="myModal" role="dialog">
+    		<div class="modal-dialog">
+      	<!-- Modal content-->
+      			<div class="modal-content">
+        			<div class="modal-body">
+          				<p>When: Summer of 2017
+          				<br>Supplies: RaspberryPi, Ultrasonic Distance Sensors, Piezo Buzzers
+          				<br>Language: Python
+          				<br>Goal: My partner and I wanted to create a device that would allow for visually impaired people to navigate better through the use of sonar technology. The distance sensors triggered buzzers when a wall was within 1.2 meters of the user. Then, the device signaled to the user if they could turn left or right.</p>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+
+  		<div class="modal fade" id="myModal2" role="dialog">
+    		<div class="modal-dialog">
+      	<!-- Modal content-->
+      			<div class="modal-content">
+        			<div class="modal-body">
+          				<p>When: Everyday
+          				<br>Supplies: Vilros Ultimate Starter Kit (comes with an Arduino Uno along with a multitude of electronic components). 
+          				<br>Goal: Fun. Fun. Fun... and getting experience! But mostly fun. </p>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+  		<div class="modal fade" id="myModal3" role="dialog">
+    		<div class="modal-dialog">
+      	<!-- Modal content-->
+      			<div class="modal-content">
+        			<div class="modal-body">
+        				<p>When: Summer of 2017
+        				<br>Where: Grove School of Engineering
+        				<br>Supplies: Kossel Mini Build Guide + Components, Arduino Uno, SolidWorks (for design), Slic3r (for printing)
+        				<br>Goal: Build a functional 3D printer to use for recreational purposes. Since the printer we built couldn't print objects that needed support structures, the designs we printed couldn't have any overhangs with an angle greater than 45 degrees. </p>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+		<div class="modal fade" id="myModal4" role="dialog">
+    		<div class="modal-dialog">
+      	<!-- Modal content-->
+      			<div class="modal-content">
+        			<div class="modal-body">
+          				<p>When: I started working on this website in September 2017
+          				<br>Langauges: HTML and CSS (using Bootstrap framework), JavaScript, and soon some PHP aswell!
+          				<br>Goal: I really just wanted a platform that people can not only see all the work I do, but also see the person behind all the work. I want to show people who I am to the fullest extent I can.
+          				</p>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+
+  		<div class="modal fade" id="myModal5" role="dialog">
+    		<div class="modal-dialog">
+      	<!-- Modal content-->
+      			<div class="modal-content">
+        			<div class="modal-body">
+          				<p>When: November 2017
+          				<br>Goal: An Arduino controlled robot car I can drive around my room</p>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+  		<div class="modal fade" id="myModal6" role="dialog">
+    		<div class="modal-dialog">
+      	<!-- Modal content-->
+      			<div class="modal-content">
+        			<div class="modal-body">
+          				<p>Description of battery construction project coming soon.</p>
+        			</div>
+      			</div>
+    		</div>
+  		</div>  	
+
+
+
+
+		<footer class="footer">
+			<div class="text-center">
+        		<a href="https://www.facebook.com/profile.php?id=100017216378522" class="fa fa-facebook"></a>
+        		<a href="https://www.linkedin.com/in/jason-ramirez-17b3aa154/" class="fa fa-linkedin"></a>
+        		<a href="https://www.instagram.com/jasonramirez00/" class="fa fa-instagram"></a>
+    		</div>
+		</footer>
+
+
+	</body>	
+
+</html>
